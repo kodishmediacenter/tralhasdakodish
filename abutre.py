@@ -41,13 +41,20 @@ def main():
 
     qualidades2 = str(qualidades)
 
+    file = open(“log.txt”,”a”) 
+    file.write("”) 
     print("<channels></channels>")
+    file.write("<channels></channels>”) 
     print("<channel>")
+    file.write("<channel>")
     print("<name>"+titulo+"</name>")
+    file.write("<name>"+titulo+"</name>")
     print("<thumbnail>"+photo2+"</thumbnail>")
-    
-    print(qualidades2.replace('[<span class="botao_dublado">','').replace('</span>,','').replace('<span class="botao_dublado">','\n').replace('</span>]',''))    
+    file.write("<thumbnail>"+photo2+"</thumbnail>")
+    print(qualidades2.replace('[<span class="botao_dublado">','').replace('</span>,','').replace('<span class="botao_dublado">','\n').replace('</span>]',''))
+    file.write(qualidades2.replace('[<span class="botao_dublado">','').replace('</span>,','').replace('<span class="botao_dublado">','\n').replace('</span>]',''))  
     print(magnet2)
+    file.write(magnet2)
     trailer2 = str(trailer)
     trailer3 = trailer2.replace('[<iframe allowfullscreen="" class="embed-responsive-item" src="','')
     trailer4 = re.sub('" title="Download (.*)"></iframe>]',r'',trailer3)
@@ -60,7 +67,16 @@ def main():
     print("<fanart></fanart>")
     print("<info></info>")
     print("</item>")
-    print("</channel>")  
+    print("</channel>")
+
+    file.write("<item>")
+    file.write("<title>Trailer</title>")
+    file.write("<utube>"+trailer4.replace('https://www.youtube.com/embed/','')+"</utube>")
+    file.write("<thumbnail>"+photo2+"</thumbnail>")
+    file.write("<fanart></fanart>")
+    file.write("<info></info>")
+    file.write("</item>")
+    file.write("</channel>")  
     
 
     
