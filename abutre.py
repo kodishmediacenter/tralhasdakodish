@@ -41,10 +41,10 @@ def main():
 
     qualidades2 = str(qualidades)
 
-    file = open(“log.txt”,”a”) 
-    file.write("”) 
+    file = open("log.txt","a") 
+    file.write("") 
     print("<channels></channels>")
-    file.write("<channels></channels>”) 
+    file.write("<channels></channels>") 
     print("<channel>")
     file.write("<channel>")
     print("<name>"+titulo+"</name>")
