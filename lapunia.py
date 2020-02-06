@@ -43,7 +43,7 @@ def main():
     magnet = re.search('magnet:(.*)',page)
 
     print(nomes.replace('[<meta content="','').replace('" property="og:title"/>]',''))
-    titulo = nomes.replace('[<title> ','').replace(' Download</title>]','')
+    titulo = nomes.replace('[<title> ','').replace(' Download</title>]','').replace('</title>]','')
     
     print(sin4)
     
