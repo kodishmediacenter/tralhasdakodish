@@ -9,22 +9,22 @@ def debrid_format(link):
     print("-------------------------------------------")
     print("--------Digite 1 Google Drive -------------")
     print("--------Digite 2 Youtube ------------------")
-    print("--------Digite 3 Dailymotion --------------")
+    #print("--------Digite 3 Dailymotion --------------")
     print("--------Digite 4 Playthis -----------------")
     print("--------Digite 5 Elementum -----------------")
     print("\n\n")
 
-    opcao = input('Digite uma opção: ')
-    if opcao == 1:
+    opcao = input('Digite uma opÃ§Ã£o: ')
+    if opcao == '1':
         link2 ="plugin://plugin.video.gdrive?mode=streamURL&amp;url="+link
         return link2
-    if opcao == 2:
+    if opcao == '2':
         link2 = "plugin://plugin.video.youtube/?action=play_video&amp;videoid="+link
         return link2
-    if opcao == 4:
+    if opcao == '4':
         link2 = "plugin://plugin.video.playthis/?mode=play&player=false&path="+link
         return link2
-    if opcao == 5:
+    if opcao == '5':
         link2 = "plugin://plugin.video.elementum/play?uri="+link
         return link2
 
