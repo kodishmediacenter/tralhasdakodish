@@ -26,7 +26,8 @@ def pega_toku_sin(url):
     page4 = str(soup4)
 
     sin = str(re.search('title(.*)',page4).group(0))
-    print(sin.replace('title>','').replace('- Tokuflix</title>','').replace('</',''))
+    fsec = sin.replace('title>','').replace('- Tokuflix</title>','').replace('</','')
+    print('#EXTINF:-1  group-title="Sem Categoria",'+fsec+'')
 
 def pegar_toku_thumb(url):
     pagina_de_busca5 = requests.get(url)
