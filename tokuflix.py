@@ -19,7 +19,7 @@ def pega_toku_mp4(url):
     print(link.replace('[<meta content="','').replace('" itemprop="contentUrl"/>]',''))
 
     
-def pega_toku_sin(url):
+def pega_toku_sin(url,thumb):
     headers = {'user-agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0'}
     pagina_de_busca4 = requests.get(url, headers=headers)
     soup4 = BeautifulSoup(pagina_de_busca4.text, "html.parser")
@@ -27,7 +27,7 @@ def pega_toku_sin(url):
 
     sin = str(re.search('title(.*)',page4).group(0))
     fsec = sin.replace('title>','').replace('- Tokuflix</title>','').replace('</','')
-    print('#EXTINF:-1  group-title="Sem Categoria",'+fsec+'')
+    print('#EXTINF:-1 tvg-logo="'+nome+'" group-title="Sem Categoria",'+fsec+'')
 
 def pegar_toku_thumb(url):
     pagina_de_busca5 = requests.get(url)
@@ -44,7 +44,8 @@ def main():
     
     url = input('Digite o Link Tokuflix: ')
     #url = "https://www.tokuflix.com/2020/02/1966-ultra-q.html"
-
+    thumb = input('Digite o Link Thumbmail: ')
+    
     conteudo = input('1 Filme e 2 Serie: ')
     cont = int(conteudo)
 
@@ -59,7 +60,7 @@ def main():
         print(thumb2.replace('href="','').replace('">',''))
         murl = thumb2.replace('href="','').replace('">','')
         pega_toku_mp4(murl)
-        pega_toku_sin(murl)
+        pega_toku_sin(murl,thumb)
         pegar_toku_thumb(murl)
         
     if cont == 2:
@@ -76,7 +77,7 @@ def main():
                 murl = ""+pref+"ep0"+ii+".html"
             else:
                 murl = ""+pref+"ep"+ii+".html"
-            pega_toku_sin(murl)
+            pega_toku_sin(murl,thumb)
             pega_toku_mp4(murl)
             
             
