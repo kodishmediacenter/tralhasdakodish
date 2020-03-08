@@ -27,7 +27,7 @@ def pega_toku_sin(url,thumb):
 
     sin = str(re.search('title(.*)',page4).group(0))
     fsec = sin.replace('title>','').replace('- Tokuflix</title>','').replace('</','')
-    print('#EXTINF:-1 tvg-logo="'+nome+'" group-title="Sem Categoria",'+fsec+'')
+    print('#EXTINF:-1 tvg-logo="'+thumb+'" group-title="Sem Categoria",'+fsec+'')
 
 def pegar_toku_thumb(url):
     pagina_de_busca5 = requests.get(url)
@@ -69,6 +69,7 @@ def main():
         start = input('Quando vc deseja iniciar: ')
         qdc2 = int(qdc)
         start2 = int(start)
+        print("#EXTM3U")
         for i in range(qdc2):
             i = i + start2
             ii = str(i)
