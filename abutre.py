@@ -23,7 +23,7 @@ def main():
     sin2 = str(sin)
     qualidades = soup.find_all('span',attrs={'class':'botao_dublado'})
     trailer = soup.find_all('iframe',attrs={'class':'embed-responsive-item'})
-    photo2 = str(photo.replace('w185_and_h278_bestv2','w600_and_h900_bestv2'))
+    photo2 = str(photo.replace('w185_and_h278_bestv2','w600_and_h900_bestv2').replace('w94_and_h141_bestv2','w600_and_h900_bestv2'))
     
     magnet = re.search('magnet:(.*)',page)
 
