@@ -80,6 +80,10 @@ def main():
                 murl = ""+pref+"ep"+ii+".html"
             pega_toku_sin(murl,thumb)
             pega_toku_mp4(murl)
+        print("")
+
+
+
             
             
         
