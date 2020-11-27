@@ -1,0 +1,22 @@
+{
+    "sites": [
+        {
+            "name": "Audrey Tutorials",
+            "poster": "",
+            "fanart": "",
+            "items": {
+                "Latest": [
+                    {
+                        "site_url": "https://www.youtube.com/playlist?list=PLlrPf5RpnpTsDItBmdIM_0Y1OfKjO3kAn",
+                        "global": "<table id=\"pl-video-table\" class=\"pl-video-table\">{%}</table>",
+                        "pattern": "data-title=\"{%}\"{*}href=\"{%}\"{*}data-thumb=\"{%}\"",
+                        "name": "{%1}",
+                        "url": "http://youtube.com{%2}",
+                        "poster": "{%3}",
+                        "fanart": "{%3}"
+                    }
+                ]
+            }
+        }
+    ]
+}
