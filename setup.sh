@@ -7,3 +7,4 @@ sudo cd ~/.config
 sudo mkdir openbox
 sudo apt install lilyterm 
 sudo apt install thunar
+sudo apt install firefox
