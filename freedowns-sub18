@@ -100,8 +100,21 @@ F: (11) 3918-8581 / (11) 98870-0735</info>
 </channel>
 </channels>
 
+ 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
 
+<channels>
+<channel>
+<name>[I][COLOR red]|||[/COLOR][COLOR white]|||[/COLOR][COLOR  white] Vagalume FM[/COLOR][B][COLOR white] Streaming [/COLOR][/B][COLOR red]|||[/COLOR][COLOR white]|||[/COLOR][/I]</name>
+<externallink>https://raw.githubusercontent.com/kodishmediacenter/Rework-hidra/main/vagalume.xml</externallink>
+<thumbnail>https://img.vagalume.fm/img/vagalume-fm-share.jpg</thumbnail>
+<fanart>https://ia903402.us.archive.org/34/items/fanart_20210211/fanart.jpg</fanart>
+<info> 
+[COLOR yellow]|[/COLOR] - ADICIONADAS RECENTEMENTE - [COLOR yellow]|[/COLOR]</info> 
+</channel>
+</channels>
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
 
 
 
