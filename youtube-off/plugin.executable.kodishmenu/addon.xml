@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.executable.kodishmenu" name="Kodish Menu" version="KDS3.0" provider-name="Kodish Team">
+  <requires>
+    <import addon="xbmc.python2" version="3.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodish Menu</summary>
+    <description lang="en">Addon para menu do Kodish OS</description>
+    <platform>all</platform>
+    <forum></forum>
+    <website></website>
+    <assets>
+    <icon>icon.jpg</icon>
+    </assets>
+ </extension>
+</addon>
