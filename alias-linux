@@ -6,3 +6,13 @@ alias ifconfig='ip -c -br a'
 
 #calculadora no terminal
 alias calc='read w && echo $w | bc'
+
+# Mostrar o cambio
+alias euro='firefox https://www.google.com.br/search?q=euro'
+alias dolar='firefox https://www.google.com.br/search?q=dolar'
+alias bitcoin='firefox https://www.google.com.br/search?q=bitcoin'
+
+# baixar video youtube para converter mp3
+alias youtubemp3='youtube-dl --extract-audio --audio-format mp3'
+
+
