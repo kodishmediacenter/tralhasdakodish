@@ -1,0 +1,2 @@
+calculadora no terminal
+alias calc='read w && echo $w | bc'
