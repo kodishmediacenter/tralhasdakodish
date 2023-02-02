@@ -1,2 +1,8 @@
-calculadora no terminal
+# pyradio aliases 
+alias pyradio='pyradio -u vlc'
+
+#ip alias
+alias ifconfig='ip -c -br a'
+
+#calculadora no terminal
 alias calc='read w && echo $w | bc'
