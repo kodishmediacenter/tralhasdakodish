@@ -1,0 +1,18 @@
+<item>
+<title> Um Chamado de Esperança </title>
+<link>magnet:?xt=urn:btih:40141a52f74aa6128e0e7eea456ceb1f9293d0c3&amp;dn=Um.Chamado.de.Esperanca.2022.1080p.WEB-DL.DUAL&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce<strong>$nome=[B]OP1 1080p[/B]</link>
+<link>plugin:\/\/plugin.video.youtube/play/?video_id=1_wslpYTvhw$nome=[B]Trailer[/B]</link>
+<thumbnail>https://image.tmdb.org/t/p/w342/rIdwJdx2GyUaqWbQEVYC8yd6uLc.jpg</thumbnail>
+<fanart></fanart>
+<info>Paul Royal é um jovem de 19 anos que, devido ao vício de sua mãe, é obrigado a escolher entre correr atrás do seu sonho de se tornar um chef ou cuidar de seus irmãos. Sobrecarregado e completamente sozinho, ele encontrará uma garota com uma mensagem de fé e esperança.</info>
+</item>
+
+<item>
+<title> De Tirar o Fôlego </title>
+<link>magnet:?xt=urn:btih:04dd9eeb8f7ceec07e876414e16c3919c0a0d6c6&amp;dn=De%20Tirar%20o%20F%c3%b4lego%202023%201080p%20WEB-DL%20DUAL%205.1&amp;tr=udp%3a%2f%2ftracker.openbittorrent.com%3a80%2fannounce&amp;tr=udp%3a%2f%2ftracker.opentrackr.org%3a1337%2fannounce$nome=[B]OP1 1080p[/B]</link>
+<link>plugin:\/\/plugin.video.youtube/play/?video_id=MzH6BI6P4Uo/$nome=[B]Trailer[/B]</link>
+<thumbnail>https://image.tmdb.org/t/p/w342/dinZWscZF1xjO6T36dHRB11ZWx7.jpg</thumbnail>
+<fanart></fanart>
+<info> De Tirar o Fôlego é um documentário original da Netflix que acompanha a impressionante jornada de Alessia Zecchini, uma premiada mergulhadora italiana que treinou incansavelmente para bater o recorde mundial de mergulho livre. Porém, ela não esteve sozinha nessa missão: Alessia também contou com a ajuda de Stephen Keenan, seu fiel treinador e especialista em segurança. Compartilhando a paixão pelo mergulho livre, o documentário mostra as recompensas e desafios do sonho compartilhado pela dupla, mostrando sua paixão quase obsessiva pelos oceanos e como os dois estiveram dispostos a fazer e arriscar tudo a fim de conquistarem um lugar na história.</info>
+</item>
+
