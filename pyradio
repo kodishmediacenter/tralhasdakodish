@@ -1,0 +1,22 @@
+sudo apt-get update
+sudo apt-get install git
+git clone https://github.com/coderholic/pyradio
+cd pyradio/
+sudo apt-get install python3
+pip install setuptools
+sudo apt install python3-pip
+pip install setuptool
+python3 setup.py
+sudo apt install vlc
+sudo apt-get install python3-full
+sudo apt-get install python3-pip 
+sudo apt-get install python3-rich 
+sudo apt-get install python3-requests
+sudo apt-get install python3-dnspython 
+sudo apt-get install python3-psutil 
+sudo apt-get install python3-netifaces
+sudo apt-get install python3-dateutil
+wget https://raw.githubusercontent.com/coderholic/pyradio/master/pyradio/install.py
+python3 install.py
+alias pyradio='/home/kodish/.local/bin/pyradio -u vlc'
+pyradio
