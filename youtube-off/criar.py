@@ -71,7 +71,7 @@ file2.write('   addDir(title = name,url = "plugin://plugin.video.youtube/"+ids+"
 file2.write('   xbmcplugin.endOfDirectory(int(sys.argv[1]),cacheToDisc=True)\n')
 
 file2.close()
-os.rename("unnamed.jpg", "icon.jpg")
+#os.rename("unnamed.jpg", "icon.jpg")
 os.rename("channels4_profile.jpg", "icon.jpg")
 im1 = Image.open(r'icon.jpg')
 im1.save(r'icon.png')
